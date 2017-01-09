@@ -1,1 +1,31 @@
-%h1 This is the welcome controller
+#banner
+    .banner_content
+        %h1 NoteNote
+        %p Your online notebook. Never forget an idea again.
+        %button= link_to "Sign Up", new_user_session_path
+#testimonial
+    .wrapper
+        %p.quote "The greatest notebook application. Period."
+        %p.name - Glenn Hewey
+        
+#callouts
+    .callout_inner
+        .wrapper
+            .callout
+                %h2 Notes
+                %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium tempor laoreet. Suspendisse id mi congue, ultrices libero in, gravida tortor. Sed in purus dolor. Sed venenatis at est quis.
+            .callout
+                %h2 rocket
+                %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium tempor laoreet. Suspendisse id mi congue, ultrices libero in, gravida tortor. Sed in purus dolor. Sed venenatis at est quis.
+            .callout
+                %h2 Lightning
+                %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium tempor laoreet. Suspendisse id mi congue, ultrices libero in, gravida tortor. Sed in purus dolor. Sed venenatis at est quis.
+                
+#bottom_cta
+    .wrapper
+        %h2 For Real!
+        %p I want you to sign up...
+        %button= link_to "Click me!!!", new_user_session_path
+        
+%footer
+    %p &copy; Glenn Hewey
